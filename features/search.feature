@@ -16,4 +16,4 @@ Feature: Search
     When I follow "cat-5"
     When I follow "cat-84"
     Then the url should be "http://olx.pl/motoryzacja/samochody/"
-    And Then the title should be "Samochody osobowe, używane auta na sprzedaż Ogłoszenia OLX.pl (dawniej Tablica.pl)"
+    And the title should be "Samochody osobowe, używane auta na sprzedaż Ogłoszenia OLX.pl (dawniej Tablica.pl)"
