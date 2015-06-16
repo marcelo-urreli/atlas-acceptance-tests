@@ -9,7 +9,7 @@ Feature: Search
     When I fill in "iPhone 5" for "headerSearch"
     And the response should contain "iPhone"
     
-  Scenario: Categories Browsing
+  Scenario: Search by browsing for Vehicles - Cars
     Given I am on "http://olx.pl/"
     When I follow "cat-5"
     When I follow "cat-84"
